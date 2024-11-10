@@ -34,7 +34,7 @@ toast.success(`${item.name} added to cart`, {
 
   return (
     <div className='mt-10 ml-10 '>
-      <div className='grid grid-cols-2 lg:grid-cols-5 gap-x-72 gap-y-10 lg:gap-6'>
+      <div className='grid grid-cols-2 lg:grid-cols-4 gap-x-72 gap-y-10 lg:gap-6'>
         {
           FoodData.map((item)=>{
             return (
@@ -75,7 +75,7 @@ toast.success(`${item.name} added to cart`, {
                 <CartItems cartitem={cartItem} setCart={setCartItem}/>
         </div>
       ) : (
-        <button onClick={()=>setShow(!show)}  className='bg-white rounded-lg mr-1 animate-dance fixed right-0 top-[900px]'><img  src={cart} className=' w-12 p-2 h-12 ' alt="" /></button>
+        <button onClick={()=>setShow(!show)}  className='bg-white rounded-lg mr-1 animate-dance fixed right-0 top-[700px]'><img  src={cart} className=' w-12 p-2 h-12 ' alt="" /></button>
       )
     }
 

@@ -17,7 +17,7 @@ const CategoryMenu1 = () => {
   return (
     <div className="mt-16">
       <h2 className="flex text-3xl font-extrabold ml-10">Find the best food</h2>
-      <div className="flex ml-10 mt-5 gap-5 text-lg font-bold">
+      <div className="flex ml-10 mt-5 gap-5 text-base font-bold">
         <button
           className="category-button"
           onClick={() => handleNavigation('All')}

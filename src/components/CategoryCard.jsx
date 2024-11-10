@@ -32,7 +32,7 @@ const CategoryCard = () => {
             {
                categoryItems ?
                <div className='mt-10 ml-10 '>
-               <div className='grid grid-cols-2 lg:grid-cols-5 gap-x-72 gap-y-10 lg:gap-6'>
+               <div className='grid grid-cols-2 lg:grid-cols-4 gap-x-72 gap-y-10 lg:gap-6'>
                  {
                categoryItems.map((item,index)=>{
                     return (

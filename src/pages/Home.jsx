@@ -2,6 +2,7 @@
 import Navbar from '../components/Navbar'
 import CategoryMenu from '../components/CategoryMenu'
 import Card from '../components/Card'
+import Footer from '../components/Footer'
 
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
         <Navbar/>
         <CategoryMenu/>
         <Card/>
-     
+        <Footer/>
     </div>
   )
 }

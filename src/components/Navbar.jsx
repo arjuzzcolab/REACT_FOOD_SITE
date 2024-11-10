@@ -21,17 +21,17 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <div className="flex gap-2 h-24 w-[700px] lg:w-full bg-black/70">
+      <div className="flex gap-0 h-20 w-[700px] lg:w-full bg-black/70">
         <img
           src={image}
           alt="logo"
-          className="mt-8 h-8 w-14 md:h-10 md:w-20 object-contain"
+          className="mt-6 h-8 w-14 md:h-10 md:w-20 object-contain"
         />
         <a href="/" className='flex justify-center items-center'><h2 className=" md:text-5xl text-3xl font-bold text-white ">
           Foodie
         </h2></a>
       </div>
-      <div className="flex justify-end -mt-20 md:mr-20 -mr-64">
+      <div className="flex justify-end -mt-[70px] md:mr-20 -mr-64">
         <input
           type="text"
           onChange={(e) => setInput(e.target.value)}
