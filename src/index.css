@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: wheat;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+/* Hide scrollbar but still allow scrolling */
+.scrollable {
+  overflow-y: scroll;  /* Enables scrolling */
+}
+
+/* Hide the scrollbar */
+.scrollable::-webkit-scrollbar {
+  width: 0; /* Hides the scrollbar */
+  height: 0; /* If you want to hide horizontal scrollbar too */
+}
+
+.scrollable {
+  scrollbar-width: none; 
+}
+
+/* Base button styles */
+.category-button {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover state for buttons */
+.category-button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Active button style */
+.category-button.clicked {
+  background-color: #1a202c;
+  color: white;
+}
+
+/* Optional: style for focus state (for accessibility) */
+.category-button:focus {
+  outline: 3px solid #4CAF50;
+}
